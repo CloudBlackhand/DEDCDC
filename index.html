@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDC Brasil | Especialistas em Defesa do Consumidor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Adicionar barra de progresso fixa no topo -->
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+
+    <header class="main-header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone-alt"></i> (11) 4000-0000</span>
+                    <span><i class="fas fa-envelope"></i> contato@cdcbrasil.com.br</span>
+                </div>
+                <div class="social-media">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">
+                        <span class="logo-icon"><i class="fas fa-balance-scale"></i></span>
+                        <span class="logo-text">CDC Brasil</span>
+                    </a>
+                </div>
+                
+                <button class="menu-toggle" aria-label="Abrir menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <nav>
+                    <ul>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#direitos">Seus Direitos</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#casos">Casos de Sucesso</a></li>
+                        <li><a href="cdc.html" target="_blank" class="btn-cdc-nav"><i class="fas fa-book-open"></i> CDC</a></li>
+                        <li><a href="#contato" class="btn-contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção Hero com imagem de banner -->
+    <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Defendemos seus direitos como consumidor</h1>
+                <p>Especialistas no Código de Defesa do Consumidor prontos para garantir que seus direitos sejam respeitados</p>
+                <div class="hero-buttons">
+                    <a href="#contato" class="btn btn-primary">Consulta Gratuita</a>
+                    <a href="#direitos" class="btn btn-secondary">Conheça seus Direitos</a>
+                    <a href="cdc.html" target="_blank" class="btn btn-cdc-hero">
+                        <i class="fas fa-book-open"></i> Acessar o CDC
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre com imagem atualizada -->
+    <section id="sobre" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre o CDC Brasil</h2>
+                <p class="section-subtitle">Seu escritório especializado em defesa do consumidor</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="Equipe CDC Brasil" class="img-fluid">
+                </div>
+                <div class="about-text">
+                    <p>O CDC Brasil é um escritório especializado na defesa dos direitos do consumidor, comprometido em oferecer soluções jurídicas eficientes e personalizadas para nossos clientes.</p>
+                    <p>Com vasta experiência na aplicação da Lei 8.078/90 (Código de Defesa do Consumidor), nossa equipe de especialistas trabalha incansavelmente para garantir que seus direitos sejam respeitados.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <span>15+ Anos de Experiência</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <span>+3000 Clientes Atendidos</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>98% de Sucesso</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="direitos" class="rights-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Seus Direitos como Consumidor</h2>
+                <p class="section-subtitle">Conheça os direitos garantidos pelo CDC</p>
+                <div class="cdc-access">
+                    <a href="cdc.html" target="_blank" class="btn-cdc">
+                        <i class="fas fa-book-open"></i> Acessar o CDC Completo
+                    </a>
+                </div>
+            </div>
+            
+            <div class="tabs-container">
+                <div class="tabs-nav">
+                    <button class="tab-btn active" data-target="arrependimento">
+                        <i class="fas fa-undo-alt"></i>
+                        <span>Arrependimento</span>
+                    </button>
+                    <button class="tab-btn" data-target="garantia">
+                        <i class="fas fa-tools"></i>
+                        <span>Garantia</span>
+                    </button>
+                    <button class="tab-btn" data-target="informacao">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Informação</span>
+                    </button>
+                    <button class="tab-btn" data-target="protecao">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Proteção</span>
+                    </button>
+                </div>
+                
+                <div class="tabs-content">
+                    <div class="tab-content active" id="arrependimento-content">
+                        <div class="tab-flex">
+                            <div class="tab-image">
+                                <img src="https://images.unsplash.com/photo-1556740772-1a741367b93e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Direito de Arrependimento">
+                            </div>
+                            <div class="tab-info">
+                                <h3>Direito de Arrependimento</h3>
+                                <p>Você tem 7 dias para desistir de compras online ou por telefone sem necessidade de justificativa.</p>
+                                <ul class="feature-list">
+                                    <li><i class="fas fa-check"></i> Aplica-se a compras fora do estabelecimento</li>
+                                    <li><i class="fas fa-check"></i> 100% de reembolso garantido</li>
+                                    <li><i class="fas fa-check"></i> Prazo contado a partir do recebimento</li>
+                                </ul>
+                                <button class="btn-more" onclick="showDetails('arrependimento')">Saiba mais</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="garantia-content">
+                        <div class="tab-flex">
+                            <div class="tab-image">
+                                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Garantia Legal">
+                            </div>
+                            <div class="tab-info">
+                                <h3>Garantia Legal</h3>
+                                <p>Todo produto ou serviço deve ter uma garantia mínima por lei, independente da garantia do fabricante.</p>
+                                <ul class="feature-list">
+                                    <li><i class="fas fa-check"></i> 30 dias para produtos não duráveis</li>
+                                    <li><i class="fas fa-check"></i> 90 dias para produtos duráveis</li>
+                                    <li><i class="fas fa-check"></i> Opções: reparo, troca ou reembolso</li>
+                                </ul>
+                                <button class="btn-more" onclick="showDetails('garantia')">Saiba mais</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="informacao-content">
+                        <div class="tab-flex">
+                            <div class="tab-image">
+                                <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Direito à Informação">
+                            </div>
+                            <div class="tab-info">
+                                <h3>Direito à Informação</h3>
+                                <p>O consumidor tem direito a informações claras e adequadas sobre produtos e serviços.</p>
+                                <ul class="feature-list">
+                                    <li><i class="fas fa-check"></i> Informações precisas e em português</li>
+                                    <li><i class="fas fa-check"></i> Preço total e características do produto</li>
+                                    <li><i class="fas fa-check"></i> Riscos à saúde e segurança</li>
+                                </ul>
+                                <button class="btn-more" onclick="showDetails('informacao')">Saiba mais</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="protecao-content">
+                        <div class="tab-flex">
+                            <div class="tab-image">
+                                <img src="https://images.unsplash.com/photo-1589578527966-fdac0f44566c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Proteção contra Práticas Abusivas">
+                            </div>
+                            <div class="tab-info">
+                                <h3>Proteção contra Práticas Abusivas</h3>
+                                <p>O CDC proíbe diversas práticas consideradas abusivas contra o consumidor.</p>
+                                <ul class="feature-list">
+                                    <li><i class="fas fa-check"></i> Proteção contra venda casada</li>
+                                    <li><i class="fas fa-check"></i> Proteção contra publicidade enganosa</li>
+                                    <li><i class="fas fa-check"></i> Proteção contra cobranças indevidas</li>
+                                </ul>
+                                <button class="btn-more" onclick="showDetails('protecao')">Saiba mais</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner CTA com imagem de fundo -->
+    <section class="cta-section" style="background-image: url('https://images.unsplash.com/photo-1590402494610-2c378a9114c6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="cta-content">
+                <h2>Problemas com uma compra ou serviço?</h2>
+                <p>Entre em contato para uma consulta gratuita e descubra como podemos ajudar a resolver sua questão</p>
+                <a href="#contato" class="btn btn-cta">Fale com um Especialista</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <p class="section-subtitle">Soluções especializadas para problemas de consumo</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h3>Representação Judicial</h3>
+                    <p>Representamos seus interesses em processos judiciais contra empresas e fornecedores</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Negociação e Acordo</h3>
+                    <p>Mediamos conflitos buscando soluções rápidas e favoráveis sem necessidade de processo</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search-dollar"></i>
+                    </div>
+                    <h3>Análise de Contratos</h3>
+                    <p>Identificamos cláusulas abusivas e garantimos a legalidade de seus contratos</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Indenizações</h3>
+                    <p>Buscamos reparação por danos materiais e morais causados por empresas</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Consultoria</h3>
+                    <p>Orientação especializada sobre seus direitos e opções em questões de consumo</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>Representação em Procon</h3>
+                    <p>Acompanhamento e suporte em procedimentos administrativos junto ao Procon</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção casos com imagem de fundo -->
+    <section id="casos" class="cases-section" style="background-image: url('https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80'); background-position: center; background-size: cover;">
+        <div class="overlay light"></div>
+        <div class="container">
+            <div class="section-header">
+                <h2>Casos de Sucesso</h2>
+                <p class="section-subtitle">Resultados que alcançamos para nossos clientes</p>
+            </div>
+            <div class="cases-slider">
+                <div class="case-slide">
+                    <div class="case-content">
+                        <div class="case-quote">
+                            <i class="fas fa-quote-left"></i>
+                            <p>Após meses tentando resolver um problema com uma compra online sem sucesso, o CDC Brasil conseguiu não apenas a devolução do meu dinheiro como também uma indenização por danos morais.</p>
+                            <h4>Maria Silva</h4>
+                            <p class="client-info">Caso de cobrança indevida</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-slide">
+                    <div class="case-content">
+                        <div class="case-quote">
+                            <i class="fas fa-quote-left"></i>
+                            <p>Comprei um eletrodoméstico que apresentou defeito na primeira semana. A loja se recusava a trocar. Com a ajuda do CDC Brasil, consegui a substituição do produto em apenas 10 dias.</p>
+                            <h4>João Pereira</h4>
+                            <p class="client-info">Caso de produto com defeito</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cases-nav">
+                <span class="prev"><i class="fas fa-chevron-left"></i></span>
+                <span class="next"><i class="fas fa-chevron-right"></i></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção estatísticas com imagem de fundo -->
+    <section class="stats-section" style="background-image: url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80');">
+        <div class="overlay dark"></div>
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">3240+</div>
+                    <div class="stat-title">Clientes Satisfeitos</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">R$ 15M+</div>
+                    <div class="stat-title">Indenizações Obtidas</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-title">Taxa de Sucesso</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-title">Anos de Experiência</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adicionar seção FAQ -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Perguntas Frequentes</h2>
+                <p class="section-subtitle">Tire suas dúvidas sobre direitos do consumidor</p>
+                <div class="cdc-access">
+                    <a href="cdc.html" target="_blank" class="btn-cdc">
+                        <i class="fas fa-book-open"></i> Consultar a Legislação
+                    </a>
+                </div>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Quanto tempo tenho para reclamar de um produto com defeito?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Para produtos duráveis (como eletrodomésticos e móveis), você tem 90 dias para reclamar. Para produtos não duráveis (como alimentos e cosméticos), o prazo é de 30 dias. Esse prazo começa a contar a partir do momento em que você identifica o defeito, não da data da compra.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Posso cancelar uma compra feita pela internet?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim. O Código de Defesa do Consumidor estabelece o direito de arrependimento para compras feitas fora do estabelecimento comercial (internet, telefone, etc.). Você tem até 7 dias após o recebimento do produto para desistir da compra, sem necessidade de justificativa.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>O que fazer se a empresa não responde minhas reclamações?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Registre sua reclamação no site consumidor.gov.br ou procure o Procon da sua cidade. Se mesmo assim não obter resposta satisfatória, busque orientação jurídica especializada. Nosso escritório pode avaliar seu caso e indicar as melhores estratégias para garantir seus direitos.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>É possível receber indenização por danos morais em casos de consumo?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, quando o problema ultrapassar o mero aborrecimento e causar transtornos significativos ao consumidor. Situações como inclusão indevida em cadastros de inadimplentes, cobrança vexatória, ou falha na prestação de serviço essencial podem gerar direito à indenização por danos morais.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Quais documentos devo guardar para uma eventual reclamação?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>É importante guardar notas fiscais, comprovantes de pagamento, pedidos, e-mails, protocolos de atendimento, anúncios e toda comunicação com a empresa. Registre também fotos do produto com defeito ou outras evidências do problema. Quanto mais documentos comprovatórios, mais fortes serão suas chances de sucesso.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adicionar seção de como funciona (processo) -->
+    <section id="processo" class="process-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Como Trabalhamos</h2>
+                <p class="section-subtitle">Conheça nosso processo de atendimento e resolução de casos</p>
+            </div>
+            
+            <div class="process-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>1. Consulta Inicial</h3>
+                        <p>Entre em contato conosco para uma consulta gratuita onde analisaremos seu caso e suas possibilidades.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>2. Análise do Caso</h3>
+                        <p>Nossa equipe jurídica especializada analisa documentos e evidências para construir sua estratégia.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>3. Negociação</h3>
+                        <p>Buscamos soluções extrajudiciais através de negociação direta com a empresa ou via Procon.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>4. Ação Judicial</h3>
+                        <p>Se necessário, ingressamos com ação judicial para garantir seus direitos e reparação de danos.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>5. Resolução</h3>
+                        <p>Acompanhamos todo o processo até a resolução final e garantimos que você receba o que tem direito.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adicionar nova seção com o CDC completo antes da seção de contato -->
+    <!-- Remover a seção completa do CDC da página principal -->
+
+    <!-- Melhorar o formulário de contato -->
+    <section id="contato" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <p class="section-subtitle">Estamos prontos para ajudar com seu caso</p>
+            </div>
+            <div class="contact-container contact-no-form">
+                <div class="contact-info-column">
+                    <div class="contact-info">
+                        <h3>Informações de Contato</h3>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <p class="info-title">Endereço</p>
+                                <p>Av. Paulista, 1000, Sala 301<br>Bela Vista, São Paulo - SP</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <p class="info-title">Telefone</p>
+                                <p>(11) 4000-0000</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <p class="info-title">E-mail</p>
+                                <p>contato@cdcbrasil.com.br</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <p class="info-title">Horário de Atendimento</p>
+                                <p>Segunda a Sexta: 9h às 18h</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-contact">
+                        <h4>Siga-nos nas redes sociais</h4>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-columns">
+                    <div class="footer-column">
+                        <div class="footer-logo">
+                            <span class="logo-icon"><i class="fas fa-balance-scale"></i></span>
+                            <span class="logo-text">CDC Brasil</span>
+                        </div>
+                        <p>Especialistas em defesa dos direitos do consumidor, atuando em todo o território nacional.</p>
+                        <div class="footer-social">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Navegação</h4>
+                        <ul>
+                            <li><a href="#sobre">Sobre Nós</a></li>
+                            <li><a href="#direitos">Seus Direitos</a></li>
+                            <li><a href="#servicos">Serviços</a></li>
+                            <li><a href="#casos">Casos de Sucesso</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Serviços</h4>
+                        <ul>
+                            <li><a href="#">Representação Judicial</a></li>
+                            <li><a href="#">Análise de Contratos</a></li>
+                            <li><a href="#">Consultoria</a></li>
+                            <li><a href="#">Indenizações</a></li>
+                            <li><a href="#">Negociações</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contato</h4>
+                        <div class="footer-contact">
+                            <p><i class="fas fa-map-marker-alt"></i> Av. Paulista, 1000, São Paulo - SP</p>
+                            <p><i class="fas fa-phone-alt"></i> (11) 4000-0000</p>
+                            <p><i class="fas fa-envelope"></i> contato@cdcbrasil.com.br</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 CDC Brasil - Todos os direitos reservados | Lei 8.078/90 - Código de Defesa do Consumidor</p>
+                <p><small>Este site é apenas informativo. Para casos específicos, consulte um advogado.</small></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal para detalhes -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

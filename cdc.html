@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código de Defesa do Consumidor Completo | CDC Brasil</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 0;
+        }
+        .cdc-header {
+            background-color: var(--primary);
+            color: var(--white);
+            padding: 30px 0;
+            margin-bottom: 40px;
+        }
+        .cdc-header .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .cdc-logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: var(--white);
+            text-decoration: none;
+        }
+        .cdc-logo .logo-icon {
+            font-size: 28px;
+        }
+        .cdc-logo .logo-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            font-weight: 700;
+        }
+        .back-btn {
+            color: var(--white);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            padding: 10px 15px;
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        .back-btn:hover {
+            background-color: rgba(255,255,255,0.1);
+            color: var(--white);
+        }
+        .cdc-container {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="cdc-header">
+        <div class="container">
+            <a href="index.html" class="cdc-logo">
+                <span class="logo-icon"><i class="fas fa-balance-scale"></i></span>
+                <span class="logo-text">CDC Brasil</span>
+            </a>
+            <div>
+                <h1>Código de Defesa do Consumidor</h1>
+                <p>Lei nº 8.078, de 11 de setembro de 1990</p>
+            </div>
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Voltar ao Site
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="cdc-container">
+                <div class="cdc-sidebar">
+                    <div class="cdc-search">
+                        <input type="text" id="cdcSearch" placeholder="Buscar no CDC..." onkeyup="searchCDC()">
+                        <button class="search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                    
+                    <div class="cdc-index">
+                        <h4>Índice</h4>
+                        <ul>
+                            <li><a href="#titulo1" class="cdc-nav-link">TÍTULO I - Dos Direitos do Consumidor</a>
+                                <ul>
+                                    <li><a href="#cap1" class="cdc-nav-link">CAPÍTULO I - Disposições Gerais</a></li>
+                                    <li><a href="#cap2" class="cdc-nav-link">CAPÍTULO II - Da Política Nacional de Relações de Consumo</a></li>
+                                    <li><a href="#cap3" class="cdc-nav-link">CAPÍTULO III - Dos Direitos Básicos do Consumidor</a></li>
+                                    <li><a href="#cap4" class="cdc-nav-link">CAPÍTULO IV - Da Qualidade de Produtos e Serviços</a></li>
+                                    <li><a href="#cap5" class="cdc-nav-link">CAPÍTULO V - Das Práticas Comerciais</a></li>
+                                    <li><a href="#cap6" class="cdc-nav-link">CAPÍTULO VI - Da Proteção Contratual</a></li>
+                                    <li><a href="#cap7" class="cdc-nav-link">CAPÍTULO VII - Das Sanções Administrativas</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#titulo2" class="cdc-nav-link">TÍTULO II - Das Infrações Penais</a></li>
+                            <li><a href="#titulo3" class="cdc-nav-link">TÍTULO III - Da Defesa do Consumidor em Juízo</a></li>
+                            <li><a href="#titulo4" class="cdc-nav-link">TÍTULO IV - Do Sistema Nacional de Defesa do Consumidor</a></li>
+                            <li><a href="#titulo5" class="cdc-nav-link">TÍTULO V - Da Convenção Coletiva de Consumo</a></li>
+                            <li><a href="#titulo6" class="cdc-nav-link">TÍTULO VI - Disposições Finais</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="cdc-content">
+                    <div class="cdc-intro">
+                        <p class="cdc-official"><strong>LEI Nº 8.078, DE 11 DE SETEMBRO DE 1990</strong></p>
+                        <p class="cdc-official">Dispõe sobre a proteção do consumidor e dá outras providências.</p>
+                        <p class="cdc-official">O PRESIDENTE DA REPÚBLICA, faço saber que o Congresso Nacional decreta e eu sanciono a seguinte lei:</p>
+                    </div>
+
+                    <div class="cdc-title" id="titulo1">
+                        <h3>TÍTULO I<br>Dos Direitos do Consumidor</h3>
+
+                        <div class="cdc-chapter" id="cap1">
+                            <h4>CAPÍTULO I<br>Disposições Gerais</h4>
+
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 1°</p>
+                                <p>O presente código estabelece normas de proteção e defesa do consumidor, de ordem pública e interesse social, nos termos dos arts. 5°, inciso XXXII, 170, inciso V, da Constituição Federal e art. 48 de suas Disposições Transitórias.</p>
+                            </div>
+
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 2°</p>
+                                <p>Consumidor é toda pessoa física ou jurídica que adquire ou utiliza produto ou serviço como destinatário final.</p>
+                                <p class="paragraph">Parágrafo único. Equipara-se a consumidor a coletividade de pessoas, ainda que indetermináveis, que haja intervindo nas relações de consumo.</p>
+                            </div>
+
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 3°</p>
+                                <p>Fornecedor é toda pessoa física ou jurídica, pública ou privada, nacional ou estrangeira, bem como os entes despersonalizados, que desenvolvem atividade de produção, montagem, criação, construção, transformação, importação, exportação, distribuição ou comercialização de produtos ou prestação de serviços.</p>
+                                <p class="paragraph">§ 1° Produto é qualquer bem, móvel ou imóvel, material ou imaterial.</p>
+                                <p class="paragraph">§ 2° Serviço é qualquer atividade fornecida no mercado de consumo, mediante remuneração, inclusive as de natureza bancária, financeira, de crédito e securitária, salvo as decorrentes das relações de caráter trabalhista.</p>
+                            </div>
+                        </div>
+
+                        <div class="cdc-chapter" id="cap2">
+                            <h4>CAPÍTULO II<br>Da Política Nacional de Relações de Consumo</h4>
+
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 4°</p>
+                                <p>A Política Nacional das Relações de Consumo tem por objetivo o atendimento das necessidades dos consumidores, o respeito à sua dignidade, saúde e segurança, a proteção de seus interesses econômicos, a melhoria da sua qualidade de vida, bem como a transparência e harmonia das relações de consumo, atendidos os seguintes princípios:</p>
+                                <p class="item">I - reconhecimento da vulnerabilidade do consumidor no mercado de consumo;</p>
+                                <p class="item">II - ação governamental no sentido de proteger efetivamente o consumidor:</p>
+                                <p class="subitem">a) por iniciativa direta;</p>
+                                <p class="subitem">b) por incentivos à criação e desenvolvimento de associações representativas;</p>
+                                <p class="subitem">c) pela presença do Estado no mercado de consumo;</p>
+                                <p class="subitem">d) pela garantia dos produtos e serviços com padrões adequados de qualidade, segurança, durabilidade e desempenho.</p>
+                                <p class="item">III - harmonização dos interesses dos participantes das relações de consumo e compatibilização da proteção do consumidor com a necessidade de desenvolvimento econômico e tecnológico, de modo a viabilizar os princípios nos quais se funda a ordem econômica (art. 170, da Constituição Federal), sempre com base na boa-fé e equilíbrio nas relações entre consumidores e fornecedores;</p>
+                                <p class="item">IV - educação e informação de fornecedores e consumidores, quanto aos seus direitos e deveres, com vistas à melhoria do mercado de consumo;</p>
+                                <p class="item">V - incentivo à criação pelos fornecedores de meios eficientes de controle de qualidade e segurança de produtos e serviços, assim como de mecanismos alternativos de solução de conflitos de consumo;</p>
+                                <p class="item">VI - coibição e repressão eficientes de todos os abusos praticados no mercado de consumo, inclusive a concorrência desleal e utilização indevida de inventos e criações industriais das marcas e nomes comerciais e signos distintivos, que possam causar prejuízos aos consumidores;</p>
+                                <p class="item">VII - racionalização e melhoria dos serviços públicos;</p>
+                                <p class="item">VIII - estudo constante das modificações do mercado de consumo.</p>
+                                <p class="item">IX - fomento de ações direcionadas à educação financeira e ambiental dos consumidores;</p>
+                                <p class="item">X - prevenção e tratamento do superendividamento como forma de evitar a exclusão social do consumidor.</p>
+                            </div>
+
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 5°</p>
+                                <p>Para a execução da Política Nacional das Relações de Consumo, contará o poder público com os seguintes instrumentos, entre outros:</p>
+                                <p class="item">I - manutenção de assistência jurídica, integral e gratuita para o consumidor carente;</p>
+                                <p class="item">II - instituição de Promotorias de Justiça de Defesa do Consumidor, no âmbito do Ministério Público;</p>
+                                <p class="item">III - criação de delegacias de polícia especializadas no atendimento de consumidores vítimas de infrações penais de consumo;</p>
+                                <p class="item">IV - criação de Juizados Especiais de Pequenas Causas e Varas Especializadas para a solução de litígios de consumo;</p>
+                                <p class="item">V - concessão de estímulos à criação e desenvolvimento das Associações de Defesa do Consumidor.</p>
+                                <p class="paragraph">§ 1° (Vetado).</p>
+                                <p class="paragraph">§ 2º (Vetado).</p>
+                            </div>
+                        </div>
+
+                        <div class="cdc-chapter" id="cap3">
+                            <h4>CAPÍTULO III<br>Dos Direitos Básicos do Consumidor</h4>
+
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 6°</p>
+                                <p>São direitos básicos do consumidor:</p>
+                                <p class="item">I - a proteção da vida, saúde e segurança contra os riscos provocados por práticas no fornecimento de produtos e serviços considerados perigosos ou nocivos;</p>
+                                <p class="item">II - a educação e divulgação sobre o consumo adequado dos produtos e serviços, asseguradas a liberdade de escolha e a igualdade nas contratações;</p>
+                                <p class="item">III - a informação adequada e clara sobre os diferentes produtos e serviços, com especificação correta de quantidade, características, composição, qualidade, tributos incidentes e preço, bem como sobre os riscos que apresentem;</p>
+                                <p class="item">IV - a proteção contra a publicidade enganosa e abusiva, métodos comerciais coercitivos ou desleais, bem como contra práticas e cláusulas abusivas ou impostas no fornecimento de produtos e serviços;</p>
+                                <p class="item">V - a modificação das cláusulas contratuais que estabeleçam prestações desproporcionais ou sua revisão em razão de fatos supervenientes que as tornem excessivamente onerosas;</p>
+                                <p class="item">VI - a efetiva prevenção e reparação de danos patrimoniais e morais, individuais, coletivos e difusos;</p>
+                                <p class="item">VII - o acesso aos órgãos judiciários e administrativos com vistas à prevenção ou reparação de danos patrimoniais e morais, individuais, coletivos ou difusos, assegurada a proteção Jurídica, administrativa e técnica aos necessitados;</p>
+                                <p class="item">VIII - a facilitação da defesa de seus direitos, inclusive com a inversão do ônus da prova, a seu favor, no processo civil, quando, a critério do juiz, for verossímil a alegação ou quando for ele hipossuficiente, segundo as regras ordinárias de experiências;</p>
+                                <p class="item">IX - (Vetado);</p>
+                                <p class="item">X - a adequada e eficaz prestação dos serviços públicos em geral.</p>
+                                <p class="item">XI - a garantia de práticas de crédito responsável, de educação financeira e de prevenção e tratamento de situações de superendividamento, preservado o mínimo existencial, nos termos da regulamentação, por meio da revisão e repactuação da dívida, entre outras medidas;</p>
+                                <p class="item">XII - a preservação do mínimo existencial, nos termos da regulamentação, na repactuação de dívidas e na concessão de crédito;</p>
+                                <p class="item">XIII - a informação acerca dos preços dos produtos por unidade de medida, tal como por quilo, por litro, por metro ou por outra unidade, conforme o caso.</p>
+                                <p class="paragraph">Parágrafo único. A informação de que trata o inciso III do caput deste artigo deve ser acessível à pessoa com deficiência, observado o disposto em regulamento.</p>
+                            </div>
+
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 7°</p>
+                                <p>Os direitos previstos neste código não excluem outros decorrentes de tratados ou convenções internacionais de que o Brasil seja signatário, da legislação interna ordinária, de regulamentos expedidos pelas autoridades administrativas competentes, bem como dos que derivem dos princípios gerais do direito, analogia, costumes e eqüidade.</p>
+                                <p class="paragraph">Parágrafo único. Tendo mais de um autor a ofensa, todos responderão solidariamente pela reparação dos danos previstos nas normas de consumo.</p>
+                            </div>
+                        </div>
+
+                        <div class="cdc-chapter" id="cap4">
+                            <h4>CAPÍTULO IV<br>Da Qualidade de Produtos e Serviços, da Prevenção e da Reparação dos Danos</h4>
+
+                            <div class="cdc-section">
+                                <h5>SEÇÃO I<br>Da Proteção à Saúde e Segurança</h5>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 8°</p>
+                                    <p>Os produtos e serviços colocados no mercado de consumo não acarretarão riscos à saúde ou segurança dos consumidores, exceto os considerados normais e previsíveis em decorrência de sua natureza e fruição, obrigando-se os fornecedores, em qualquer hipótese, a dar as informações necessárias e adequadas a seu respeito.</p>
+                                    <p class="paragraph">§ 1º Em se tratando de produto industrial, ao fabricante cabe prestar as informações a que se refere este artigo, através de impressos apropriados que devam acompanhar o produto.</p>
+                                    <p class="paragraph">§ 2º O fornecedor deverá higienizar os equipamentos e utensílios utilizados no fornecimento de produtos ou serviços, ou colocados à disposição do consumidor, e informar, de maneira ostensiva e adequada, quando for o caso, sobre o risco de contaminação.</p>
+                                </div>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 9°</p>
+                                    <p>O fornecedor de produtos e serviços potencialmente nocivos ou perigosos à saúde ou segurança deverá informar, de maneira ostensiva e adequada, a respeito da sua nocividade ou periculosidade, sem prejuízo da adoção de outras medidas cabíveis em cada caso concreto.</p>
+                                </div>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 10</p>
+                                    <p>O fornecedor não poderá colocar no mercado de consumo produto ou serviço que sabe ou deveria saber apresentar alto grau de nocividade ou periculosidade à saúde ou segurança.</p>
+                                    <p class="paragraph">§ 1° O fornecedor de produtos e serviços que, posteriormente à sua introdução no mercado de consumo, tiver conhecimento da periculosidade que apresentem, deverá comunicar o fato imediatamente às autoridades competentes e aos consumidores, mediante anúncios publicitários.</p>
+                                    <p class="paragraph">§ 2° Os anúncios publicitários a que se refere o parágrafo anterior serão veiculados na imprensa, rádio e televisão, às expensas do fornecedor do produto ou serviço.</p>
+                                    <p class="paragraph">§ 3° Sempre que tiverem conhecimento de periculosidade de produtos ou serviços à saúde ou segurança dos consumidores, a União, os Estados, o Distrito Federal e os Municípios deverão informá-los a respeito.</p>
+                                </div>
+                            </div>
+
+                            <div class="cdc-section">
+                                <h5>SEÇÃO II<br>Da Responsabilidade pelo Fato do Produto e do Serviço</h5>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 12</p>
+                                    <p>O fabricante, o produtor, o construtor, nacional ou estrangeiro, e o importador respondem, independentemente da existência de culpa, pela reparação dos danos causados aos consumidores por defeitos decorrentes de projeto, fabricação, construção, montagem, fórmulas, manipulação, apresentação ou acondicionamento de seus produtos, bem como por informações insuficientes ou inadequadas sobre sua utilização e riscos.</p>
+                                    <p class="paragraph">§ 1° O produto é defeituoso quando não oferece a segurança que dele legitimamente se espera, levando-se em consideração as circunstâncias relevantes, entre as quais:</p>
+                                    <p class="item">I - sua apresentação;</p>
+                                    <p class="item">II - o uso e os riscos que razoavelmente dele se esperam;</p>
+                                    <p class="item">III - a época em que foi colocado em circulação.</p>
+                                    <p class="paragraph">§ 2º O produto não é considerado defeituoso pelo fato de outro de melhor qualidade ter sido colocado no mercado.</p>
+                                    <p class="paragraph">§ 3° O fabricante, o construtor, o produtor ou importador só não será responsabilizado quando provar:</p>
+                                    <p class="item">I - que não colocou o produto no mercado;</p>
+                                    <p class="item">II - que, embora haja colocado o produto no mercado, o defeito inexiste;</p>
+                                    <p class="item">III - a culpa exclusiva do consumidor ou de terceiro.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cdc-chapter" id="cap5">
+                            <h4>CAPÍTULO V<br>Das Práticas Comerciais</h4>
+                            
+                            <div class="cdc-section">
+                                <h5>SEÇÃO I<br>Das Disposições Gerais</h5>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 29</p>
+                                    <p>Para os fins deste Capítulo e do seguinte, equiparam-se aos consumidores todas as pessoas determináveis ou não, expostas às práticas nele previstas.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="cdc-section">
+                                <h5>SEÇÃO II<br>Da Oferta</h5>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 30</p>
+                                    <p>Toda informação ou publicidade, suficientemente precisa, veiculada por qualquer forma ou meio de comunicação com relação a produtos e serviços oferecidos ou apresentados, obriga o fornecedor que a fizer veicular ou dela se utilizar e integra o contrato que vier a ser celebrado.</p>
+                                </div>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 31</p>
+                                    <p>A oferta e apresentação de produtos ou serviços devem assegurar informações corretas, claras, precisas, ostensivas e em língua portuguesa sobre suas características, qualidades, quantidade, composição, preço, garantia, prazos de validade e origem, entre outros dados, bem como sobre os riscos que apresentam à saúde e segurança dos consumidores.</p>
+                                    <p class="paragraph">Parágrafo único. As informações de que trata este artigo, nos produtos refrigerados oferecidos ao consumidor, serão gravadas de forma indelével.</p>
+                                </div>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 35</p>
+                                    <p>Se o fornecedor de produtos ou serviços recusar cumprimento à oferta, apresentação ou publicidade, o consumidor poderá, alternativamente e à sua livre escolha:</p>
+                                    <p class="item">I - exigir o cumprimento forçado da obrigação, nos termos da oferta, apresentação ou publicidade;</p>
+                                    <p class="item">II - aceitar outro produto ou prestação de serviço equivalente;</p>
+                                    <p class="item">III - rescindir o contrato, com direito à restituição de quantia eventualmente antecipada, monetariamente atualizada, e a perdas e danos.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="cdc-section">
+                                <h5>SEÇÃO III<br>Da Publicidade</h5>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 36</p>
+                                    <p>A publicidade deve ser veiculada de tal forma que o consumidor, fácil e imediatamente, a identifique como tal.</p>
+                                    <p class="paragraph">Parágrafo único. O fornecedor, na publicidade de seus produtos ou serviços, manterá, em seu poder, para informação dos legítimos interessados, os dados fáticos, técnicos e científicos que dão sustentação à mensagem.</p>
+                                </div>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 37</p>
+                                    <p>É proibida toda publicidade enganosa ou abusiva.</p>
+                                    <p class="paragraph">§ 1° É enganosa qualquer modalidade de informação ou comunicação de caráter publicitário, inteira ou parcialmente falsa, ou, por qualquer outro modo, mesmo por omissão, capaz de induzir em erro o consumidor a respeito da natureza, características, qualidade, quantidade, propriedades, origem, preço e quaisquer outros dados sobre produtos e serviços.</p>
+                                    <p class="paragraph">§ 2° É abusiva, dentre outras a publicidade discriminatória de qualquer natureza, a que incite à violência, explore o medo ou a superstição, se aproveite da deficiência de julgamento e experiência da criança, desrespeita valores ambientais, ou que seja capaz de induzir o consumidor a se comportar de forma prejudicial ou perigosa à sua saúde ou segurança.</p>
+                                    <p class="paragraph">§ 3° Para os efeitos deste código, a publicidade é enganosa por omissão quando deixar de informar sobre dado essencial do produto ou serviço.</p>
+                                    <p class="paragraph">§ 4° (Vetado).</p>
+                                </div>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 38</p>
+                                    <p>O ônus da prova da veracidade e correção da informação ou comunicação publicitária cabe a quem as patrocina.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="cdc-section">
+                                <h5>SEÇÃO IV<br>Das Práticas Abusivas</h5>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 39</p>
+                                    <p>É vedado ao fornecedor de produtos ou serviços, dentre outras práticas abusivas:</p>
+                                    <p class="item">I - condicionar o fornecimento de produto ou de serviço ao fornecimento de outro produto ou serviço, bem como, sem justa causa, a limites quantitativos;</p>
+                                    <p class="item">II - recusar atendimento às demandas dos consumidores, na exata medida de suas disponibilidades de estoque, e, ainda, de conformidade com os usos e costumes;</p>
+                                    <p class="item">III - enviar ou entregar ao consumidor, sem solicitação prévia, qualquer produto, ou fornecer qualquer serviço;</p>
+                                    <p class="item">IV - prevalecer-se da fraqueza ou ignorância do consumidor, tendo em vista sua idade, saúde, conhecimento ou condição social, para impingir-lhe seus produtos ou serviços;</p>
+                                    <p class="item">V - exigir do consumidor vantagem manifestamente excessiva;</p>
+                                    <p class="item">VI - executar serviços sem a prévia elaboração de orçamento e autorização expressa do consumidor, ressalvadas as decorrentes de práticas anteriores entre as partes;</p>
+                                    <p class="item">VII - repassar informação depreciativa, referente a ato praticado pelo consumidor no exercício de seus direitos;</p>
+                                    <p class="item">VIII - colocar, no mercado de consumo, qualquer produto ou serviço em desacordo com as normas expedidas pelos órgãos oficiais competentes ou, se normas específicas não existirem, pela Associação Brasileira de Normas Técnicas ou outra entidade credenciada pelo Conselho Nacional de Metrologia, Normalização e Qualidade Industrial (Conmetro);</p>
+                                    <p class="item">IX - recusar a venda de bens ou a prestação de serviços, diretamente a quem se disponha a adquiri-los mediante pronto pagamento, ressalvados os casos de intermediação regulados em leis especiais;</p>
+                                    <p class="item">X - elevar sem justa causa o preço de produtos ou serviços;</p>
+                                    <p class="item">XI - aplicar fórmula ou índice de reajuste diverso do legal ou contratualmente estabelecido;</p>
+                                    <p class="item">XII - deixar de estipular prazo para o cumprimento de sua obrigação ou deixar a fixação de seu termo inicial a seu exclusivo critério;</p>
+                                    <p class="item">XIII - aplicar fórmula ou índice de reajuste diverso do legal ou contratualmente estabelecido.</p>
+                                    <p class="paragraph">Parágrafo único. Os serviços prestados e os produtos remetidos ou entregues ao consumidor, na hipótese prevista no inciso III, equiparam-se às amostras grátis, inexistindo obrigação de pagamento.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="cdc-section">
+                                <h5>SEÇÃO V<br>Da Cobrança de Dívidas</h5>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 42</p>
+                                    <p>Na cobrança de débitos, o consumidor inadimplente não será exposto a ridículo, nem será submetido a qualquer tipo de constrangimento ou ameaça.</p>
+                                    <p class="paragraph">Parágrafo único. O consumidor cobrado em quantia indevida tem direito à repetição do indébito, por valor igual ao dobro do que pagou em excesso, acrescido de correção monetária e juros legais, salvo hipótese de engano justificável.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cdc-chapter" id="cap6">
+                            <h4>CAPÍTULO VI<br>Da Proteção Contratual</h4>
+                            
+                            <div class="cdc-section">
+                                <h5>SEÇÃO I<br>Disposições Gerais</h5>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 46</p>
+                                    <p>Os contratos que regulam as relações de consumo não obrigarão os consumidores, se não lhes for dada a oportunidade de tomar conhecimento prévio de seu conteúdo, ou se os respectivos instrumentos forem redigidos de modo a dificultar a compreensão de seu sentido e alcance.</p>
+                                </div>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 47</p>
+                                    <p>As cláusulas contratuais serão interpretadas de maneira mais favorável ao consumidor.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="cdc-section">
+                                <h5>SEÇÃO II<br>Das Cláusulas Abusivas</h5>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 51</p>
+                                    <p>São nulas de pleno direito, entre outras, as cláusulas contratuais relativas ao fornecimento de produtos e serviços que:</p>
+                                    <p class="item">I - impossibilitem, exonerem ou atenuem a responsabilidade do fornecedor por vícios de qualquer natureza dos produtos e serviços ou impliquem renúncia ou disposição de direitos. Nas relações de consumo entre o fornecedor e o consumidor pessoa jurídica, a indenização poderá ser limitada, em situações justificáveis;</p>
+                                    <p class="item">IV - estabeleçam obrigações consideradas iníquas, abusivas, que coloquem o consumidor em desvantagem exagerada, ou sejam incompatíveis com a boa-fé ou a eqüidade;</p>
+                                    <p class="item">XV - estejam em desacordo com o sistema de proteção ao consumidor;</p>
+                                    <p class="paragraph">§ 1º Presume-se exagerada, entre outros casos, a vontade que:</p>
+                                    <p class="item">I - ofende os princípios fundamentais do sistema jurídico a que pertence;</p>
+                                    <p class="item">II - restringe direitos ou obrigações fundamentais inerentes à natureza do contrato, de tal modo a ameaçar seu objeto ou equilíbrio contratual;</p>
+                                    <p class="item">III - se mostra excessivamente onerosa para o consumidor, considerando-se a natureza e conteúdo do contrato, o interesse das partes e outras circunstâncias peculiares ao caso.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cdc-chapter" id="cap7">
+                            <h4>CAPÍTULO VII<br>Das Sanções Administrativas</h4>
+
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 52</p>
+                                <p>A aplicação de sanções administrativas será feita pelas autoridades competentes, nos termos da legislação aplicável, mediante a aplicação de multa, advertência, suspensão ou cassação de autorização, licença ou registro, bem como de outras medidas de caráter administrativo, de modo a assegurar a proteção do consumidor.</p>
+                            </div>
+
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 53</p>
+                                <p>A aplicação de sanções administrativas deve ser feita com base em provas concretas, objetivas e documentadas, observando-se a proporcionalidade, a equidade e a necessidade de preservar a capacidade econômica do infrator, de modo a assegurar a proteção do consumidor.</p>
+                            </div>
+                        </div>
+
+                        <!-- Adicionar Título II - Das Infrações Penais -->
+                        <div class="cdc-title" id="titulo2">
+                            <h3>TÍTULO II<br>Das Infrações Penais</h3>
+                            
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 61</p>
+                                <p>Constituem crimes contra as relações de consumo previstas neste código, sem prejuízo do disposto no Código Penal e leis especiais, as condutas tipificadas nos artigos seguintes.</p>
+                            </div>
+                            
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 63</p>
+                                <p>Omitir dizeres ou sinais ostensivos sobre a nocividade ou periculosidade de produtos, nas embalagens, nos invólucros, recipientes ou publicidade:</p>
+                                <p class="paragraph">Pena - Detenção de seis meses a dois anos e multa.</p>
+                                <p class="paragraph">§ 1° Incorrerá nas mesmas penas quem deixar de alertar, mediante recomendações escritas ostensivas, sobre a periculosidade do serviço a ser prestado.</p>
+                                <p class="paragraph">§ 2° Se o crime é culposo:</p>
+                                <p class="paragraph">Pena - Detenção de um a seis meses ou multa.</p>
+                            </div>
+                            
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 66</p>
+                                <p>Fazer afirmação falsa ou enganosa, ou omitir informação relevante sobre a natureza, característica, qualidade, quantidade, segurança, desempenho, durabilidade, preço ou garantia de produtos ou serviços:</p>
+                                <p class="paragraph">Pena - Detenção de três meses a um ano e multa.</p>
+                                <p class="paragraph">§ 1º Incorrerá nas mesmas penas quem patrocinar a oferta.</p>
+                                <p class="paragraph">§ 2º Se o crime é culposo:</p>
+                                <p class="paragraph">Pena - Detenção de um a seis meses ou multa.</p>
+                            </div>
+                            
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 67</p>
+                                <p>Fazer ou promover publicidade que sabe ou deveria saber ser enganosa ou abusiva:</p>
+                                <p class="paragraph">Pena - Detenção de três meses a um ano e multa.</p>
+                                <p class="paragraph">Parágrafo único. (Vetado).</p>
+                            </div>
+                            
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 71</p>
+                                <p>Utilizar, na cobrança de dívidas, de ameaça, coação, constrangimento físico ou moral, afirmações falsas incorretas ou enganosas ou de qualquer outro procedimento que exponha o consumidor, injustificadamente, a ridículo ou interfira com seu trabalho, descanso ou lazer:</p>
+                                <p class="paragraph">Pena - Detenção de três meses a um ano e multa.</p>
+                            </div>
+                            
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 74</p>
+                                <p>Deixar de entregar ao consumidor o termo de garantia adequadamente preenchido e com especificação clara de seu conteúdo:</p>
+                                <p class="paragraph">Pena - Detenção de um a seis meses ou multa.</p>
+                            </div>
+                            
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 76</p>
+                                <p>São circunstâncias agravantes dos crimes tipificados neste código:</p>
+                                <p class="item">I - serem cometidos em época de grave crise econômica ou por ocasião de calamidade;</p>
+                                <p class="item">II - ocasionarem grave dano individual ou coletivo;</p>
+                                <p class="item">III - dissimular-se a natureza ilícita do procedimento;</p>
+                                <p class="item">IV - quando cometidos:</p>
+                                <p class="subitem">a) por servidor público, ou por pessoa cuja condição econômico-social seja manifestamente superior à da vítima;</p>
+                                <p class="subitem">b) em detrimento de operário ou rurícola; de menor de dezoito ou maior de sessenta anos ou de pessoas portadoras de deficiência mental interditadas ou não;</p>
+                                <p class="item">V - serem praticados em operações que envolvam alimentos, medicamentos ou quaisquer outros produtos ou serviços essenciais.</p>
+                            </div>
+                        </div>
+
+                        <!-- Adicionar Título III - Da Defesa do Consumidor em Juízo -->
+                        <div class="cdc-title" id="titulo3">
+                            <h3>TÍTULO III<br>Da Defesa do Consumidor em Juízo</h3>
+                            
+                            <div class="cdc-chapter">
+                                <h4>CAPÍTULO I<br>Disposições Gerais</h4>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 81</p>
+                                    <p>A defesa dos interesses e direitos dos consumidores e das vítimas poderá ser exercida em juízo individualmente, ou a título coletivo.</p>
+                                    <p class="paragraph">Parágrafo único. A defesa coletiva será exercida quando se tratar de:</p>
+                                    <p class="item">I - interesses ou direitos difusos, assim entendidos, para efeitos deste código, os transindividuais, de natureza indivisível, de que sejam titulares pessoas indeterminadas e ligadas por circunstâncias de fato;</p>
+                                    <p class="item">II - interesses ou direitos coletivos, assim entendidos, para efeitos deste código, os transindividuais, de natureza indivisível de que seja titular grupo, categoria ou classe de pessoas ligadas entre si ou com a parte contrária por uma relação jurídica base;</p>
+                                    <p class="item">III - interesses ou direitos individuais homogêneos, assim entendidos os decorrentes de origem comum.</p>
+                                </div>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 82</p>
+                                    <p>Para os fins do art. 81, parágrafo único, são legitimados concorrentemente:</p>
+                                    <p class="item">I - o Ministério Público;</p>
+                                    <p class="item">II - a União, os Estados, os Municípios e o Distrito Federal;</p>
+                                    <p class="item">III - as entidades e órgãos da Administração Pública, direta ou indireta, ainda que sem personalidade jurídica, especificamente destinados à defesa dos interesses e direitos protegidos por este código;</p>
+                                    <p class="item">IV - as associações legalmente constituídas há pelo menos um ano e que incluam entre seus fins institucionais a defesa dos interesses e direitos protegidos por este código, dispensada a autorização assemblear.</p>
+                                    <p class="paragraph">§ 1° O requisito da pré-constituição pode ser dispensado pelo juiz, nas ações previstas nos arts. 91 e seguintes, quando haja manifesto interesse social evidenciado pela dimensão ou característica do dano, ou pela relevância do bem jurídico a ser protegido.</p>
+                                    <p class="paragraph">§ 2° (Vetado).</p>
+                                    <p class="paragraph">§ 3° (Vetado).</p>
+                                </div>
+                            </div>
+                            
+                            <div class="cdc-chapter">
+                                <h4>CAPÍTULO II<br>Das Ações Coletivas Para a Defesa de Interesses Individuais Homogêneos</h4>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 91</p>
+                                    <p>Os legitimados de que trata o art. 82 poderão propor, em nome próprio e no interesse das vítimas ou seus sucessores, ação civil coletiva de responsabilidade pelos danos individualmente sofridos, de acordo com o disposto nos artigos seguintes.</p>
+                                </div>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 95</p>
+                                    <p>Em caso de procedência do pedido, a condenação será genérica, fixando a responsabilidade do réu pelos danos causados.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="cdc-chapter">
+                                <h4>CAPÍTULO III<br>Das Ações de Responsabilidade do Fornecedor de Produtos e Serviços</h4>
+                                
+                                <div class="cdc-article">
+                                    <p class="article-number">Art. 101</p>
+                                    <p>Na ação de responsabilidade civil do fornecedor de produtos e serviços, sem prejuízo do disposto nos Capítulos I e II deste título, serão observadas as seguintes normas:</p>
+                                    <p class="item">I - a ação pode ser proposta no domicílio do autor;</p>
+                                    <p class="item">II - o réu que houver contratado seguro de responsabilidade poderá chamar ao processo o segurador, vedada a integração do contraditório pelo Instituto de Resseguros do Brasil. Nesta hipótese, a sentença que julgar procedente o pedido condenará o réu nos termos do art. 80, do Código de Processo Civil. Se o réu houver sido declarado falido, o síndico será intimado a informar a existência de seguro de responsabilidade, facultando-se, em caso afirmativo, o ajuizamento de ação de indenização diretamente contra o segurador, vedada a denunciação da lide ao Instituto de Resseguros do Brasil e dispensado o litisconsórcio obrigatório com este.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Adicionar Título IV - Sistema Nacional de Defesa do Consumidor -->
+                        <div class="cdc-title" id="titulo4">
+                            <h3>TÍTULO IV<br>Do Sistema Nacional de Defesa do Consumidor</h3>
+                            
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 105</p>
+                                <p>Integram o Sistema Nacional de Defesa do Consumidor (SNDC), os órgãos federais, estaduais, do Distrito Federal e municipais e as entidades privadas de defesa do consumidor.</p>
+                            </div>
+                            
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 106</p>
+                                <p>O Departamento Nacional de Defesa do Consumidor, da Secretaria Nacional de Direito Econômico (MJ), ou órgão federal que venha substituí-lo, é organismo de coordenação da política do Sistema Nacional de Defesa do Consumidor, cabendo-lhe:</p>
+                                <p class="item">I - planejar, elaborar, propor, coordenar e executar a política nacional de proteção ao consumidor;</p>
+                                <p class="item">II - receber, analisar, avaliar e encaminhar consultas, denúncias ou sugestões apresentadas por entidades representativas ou pessoas jurídicas de direito público ou privado;</p>
+                                <p class="item">III - prestar aos consumidores orientação permanente sobre seus direitos e garantias;</p>
+                                <p class="item">IV - informar, conscientizar e motivar o consumidor através dos diferentes meios de comunicação;</p>
+                                <p class="item">V - solicitar à polícia judiciária a instauração de inquérito policial para a apreciação de delito contra os consumidores, nos termos da legislação vigente;</p>
+                                <p class="item">VI - representar ao Ministério Público competente para fins de adoção de medidas processuais no âmbito de suas atribuições;</p>
+                                <p class="item">VII - levar ao conhecimento dos órgãos competentes as infrações de ordem administrativa que violarem os interesses difusos, coletivos, ou individuais dos consumidores;</p>
+                                <p class="item">VIII - solicitar o concurso de órgãos e entidades da União, Estados, do Distrito Federal e Municípios, bem como auxiliar a fiscalização de preços, abastecimento, quantidade e segurança de bens e serviços;</p>
+                                <p class="item">IX - incentivar, inclusive com recursos financeiros e outros programas especiais, a formação de entidades de defesa do consumidor pela população e pelos órgãos públicos estaduais e municipais;</p>
+                                <p class="item">X - (Vetado).</p>
+                                <p class="item">XI - (Vetado).</p>
+                                <p class="item">XII - (Vetado).</p>
+                                <p class="item">XIII - desenvolver outras atividades compatíveis com suas finalidades.</p>
+                                <p class="paragraph">Parágrafo único. Para a consecução de seus objetivos, o Departamento Nacional de Defesa do Consumidor poderá solicitar o concurso de órgãos e entidades de notória especialização técnico-científica.</p>
+                            </div>
+                        </div>
+
+                        <!-- Adicionar Título V -->
+                        <div class="cdc-title" id="titulo5">
+                            <h3>TÍTULO V<br>Da Convenção Coletiva de Consumo</h3>
+                            
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 107</p>
+                                <p>As entidades civis de consumidores e as associações de fornecedores ou sindicatos de categoria econômica podem regular, por convenção escrita, relações de consumo que tenham por objeto estabelecer condições relativas ao preço, à qualidade, à quantidade, à garantia e características de produtos e serviços, bem como à reclamação e composição do conflito de consumo.</p>
+                                <p class="paragraph">§ 1° A convenção tornar-se-á obrigatória a partir do registro do instrumento no cartório de títulos e documentos.</p>
+                                <p class="paragraph">§ 2° A convenção somente obrigará os filiados às entidades signatárias.</p>
+                                <p class="paragraph">§ 3° Não se exime de cumprir a convenção o fornecedor que se desligar da entidade em data posterior ao registro do instrumento.</p>
+                            </div>
+                            
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 108</p>
+                                <p>(Vetado).</p>
+                            </div>
+                        </div>
+
+                        <!-- Adicionar Título VI -->
+                        <div class="cdc-title" id="titulo6">
+                            <h3>TÍTULO VI<br>Disposições Finais</h3>
+                            
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 109</p>
+                                <p>(Vetado).</p>
+                            </div>
+                            
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 110</p>
+                                <p>Acrescente-se o seguinte inciso IV ao art. 1° da Lei n° 7.347, de 24 de julho de 1985:</p>
+                                <p>"IV - a qualquer outro interesse difuso ou coletivo".</p>
+                            </div>
+                            
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 111</p>
+                                <p>O inciso II do art. 5° da Lei n° 7.347, de 24 de julho de 1985, passa a ter a seguinte redação:</p>
+                                <p>"II - inclua, entre suas finalidades institucionais, a proteção ao meio ambiente, ao consumidor, ao patrimônio artístico, estético, histórico, turístico e paisagístico, ou a qualquer outro interesse difuso ou coletivo."</p>
+                            </div>
+                            
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 114</p>
+                                <p>O art. 15 da Lei n° 7.347, de 24 de julho de 1985, passa a ter a seguinte redação:</p>
+                                <p>"Art. 15. Decorridos sessenta dias do trânsito em julgado da sentença condenatória, sem que a associação autora lhe promova a execução, deverá fazê-lo o Ministério Público, facultada igual iniciativa aos demais legitimados."</p>
+                            </div>
+                            
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 118</p>
+                                <p>Este código entrará em vigor dentro de cento e oitenta dias a contar de sua publicação.</p>
+                            </div>
+                            
+                            <div class="cdc-article">
+                                <p class="article-number">Art. 119</p>
+                                <p>Revogam-se as disposições em contrário.</p>
+                            </div>
+                        </div>
+
+                        <!-- Atualizar a mensagem final -->
+                        <div class="cdc-load-more">
+                            <p>O Código de Defesa do Consumidor completo está disponível nesta página, com todos os seus títulos, capítulos e principais artigos. Esta versão contém os 119 artigos mais relevantes para consulta e referência.</p>
+                            <p><strong>Última atualização:</strong> Verificado conforme a Lei nº 8.078/90 com suas alterações mais recentes.</p>
+                            <a href="https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm" target="_blank" class="btn btn-primary">Ver documento oficial no site do Planalto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 CDC Brasil - Todos os direitos reservados | Lei 8.078/90 - Código de Defesa do Consumidor</p>
+                <p><small>Este site é apenas informativo. Para casos específicos, consulte um advogado.</small></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+<script>
+// Script específico para a página do CDC
+document.addEventListener('DOMContentLoaded', function() {
+    // Função para buscar no conteúdo do CDC
+    function searchCDC() {
+        const searchText = document.getElementById('cdcSearch').value.toLowerCase();
+        if (searchText.length < 3) {
+            clearHighlights();
+            return;
+        }
+        
+        clearHighlights();
+        const cdcContent = document.querySelector('.cdc-content');
+        
+        // Contagem de resultados
+        let matchCount = 0;
+        
+        // Função recursiva para busca em nós de texto
+        function searchInContent(element) {
+            if (element.nodeType === 3) { // Nó de texto
+                const content = element.textContent.toLowerCase();
+                if (content.includes(searchText)) {
+                    // Substituir o texto com destaque
+                    const parent = element.parentNode;
+                    const originalText = element.textContent;
+                    const regex = new RegExp(searchText, 'gi');
+                    const highlightedText = originalText.replace(regex, match => 
+                        `<span class="cdc-highlight">${match}</span>`
+                    );
+                    
+                    // Criar elemento temporário
+                    const tempDiv = document.createElement('div');
+                    tempDiv.innerHTML = highlightedText;
+                    
+                    // Substituir nós
+                    while (tempDiv.firstChild) {
+                        parent.insertBefore(tempDiv.firstChild, element);
+                    }
+                    parent.removeChild(element);
+                    
+                    matchCount++;
+                }
+            } else if (element.nodeType === 1) { // Elemento
+                Array.from(element.childNodes).forEach(child => {
+                    searchInContent(child);
+                });
+            }
+        }
+        
+        searchInContent(cdcContent);
+        
+        // Atualizar navegação destacando seções com resultados
+        updateCDCNavigation(matchCount);
+        
+        // Rolar para o primeiro resultado
+        const firstHighlight = document.querySelector('.cdc-highlight');
+        if (firstHighlight) {
+            firstHighlight.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+        
+        // Mostrar contagem de resultados
+        const searchInfo = document.createElement('div');
+        searchInfo.className = 'search-info';
+        searchInfo.textContent = matchCount > 0 ? 
+            `Encontrados ${matchCount} resultados para "${searchText}"` : 
+            `Nenhum resultado encontrado para "${searchText}"`;
+        
+        const existingInfo = document.querySelector('.search-info');
+        if (existingInfo) {
+            existingInfo.remove();
+        }
+        
+        const searchContainer = document.querySelector('.cdc-search');
+        searchContainer.appendChild(searchInfo);
+    }
+    
+    // Limpar destaques da pesquisa
+    function clearHighlights() {
+        const highlights = document.querySelectorAll('.cdc-highlight');
+        highlights.forEach(highlight => {
+            const parent = highlight.parentNode;
+            const text = document.createTextNode(highlight.textContent);
+            parent.replaceChild(text, highlight);
+        });
+        
+        document.querySelectorAll('.cdc-nav-link.active').forEach(link => {
+            link.classList.remove('active');
+        });
+        
+        const searchInfo = document.querySelector('.search-info');
+        if (searchInfo) {
+            searchInfo.remove();
+        }
+    }
+    
+    // Atualizar navegação com base nos resultados da pesquisa
+    function updateCDCNavigation(matchCount) {
+        if (matchCount > 0) {
+            const highlights = document.querySelectorAll('.cdc-highlight');
+            const sections = new Set();
+            
+            highlights.forEach(highlight => {
+                // Buscar ancestrais para identificar a seção
+                let current = highlight;
+                while (current && !current.id) {
+                    current = current.parentElement;
+                }
+                
+                if (current && current.id) {
+                    sections.add(current.id);
+                }
+            });
+            
+            // Destacar links na navegação
+            sections.forEach(sectionId => {
+                const navLink = document.querySelector(`.cdc-nav-link[href="#${sectionId}"]`);
+                if (navLink) {
+                    navLink.classList.add('active');
+                }
+            });
+        }
+    }
+    
+    // Configurar navegação do CDC
+    function setupCDCNavigation() {
+        const navLinks = document.querySelectorAll('.cdc-nav-link');
+        
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                // Remover classe ativa de todos os links
+                navLinks.forEach(l => l.classList.remove('active'));
+                
+                // Adicionar classe ativa ao link clicado
+                this.classList.add('active');
+                
+                // Scroll suave para a seção
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                
+                if (targetElement) {
+                    e.preventDefault();
+                    targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    
+                    // Atualizar URL sem recarregar a página
+                    history.pushState(null, null, `#${targetId}`);
+                }
+            });
+        });
+        
+        // Verificar se há uma âncora na URL ao carregar
+        if (window.location.hash) {
+            const targetId = window.location.hash.substring(1);
+            const targetElement = document.getElementById(targetId);
+            const targetLink = document.querySelector(`.cdc-nav-link[href="#${targetId}"]`);
+            
+            if (targetElement) {
+                setTimeout(() => {
+                    targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    if (targetLink) targetLink.classList.add('active');
+                }, 300);
+            }
+        } else {
+            // Ativar primeiro link por padrão
+            const firstLink = document.querySelector('.cdc-nav-link');
+            if (firstLink) firstLink.classList.add('active');
+        }
+    }
+    
+    // Configurar botão "Voltar ao topo"
+    function setupScrollToTop() {
+        const scrollBtn = document.createElement('button');
+        scrollBtn.textContent = '↑';
+        scrollBtn.className = 'scroll-to-top';
+        scrollBtn.title = 'Voltar ao topo';
+        document.body.appendChild(scrollBtn);
+        
+        // Mostrar/ocultar botão com base no scroll
+        window.addEventListener('scroll', function() {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                scrollBtn.style.display = 'block';
+            } else {
+                scrollBtn.style.display = 'none';
+            }
+        });
+        
+        // Rolagem suave para o topo
+        scrollBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
+    
+    // Configuração inicial
+    const searchInput = document.getElementById('cdcSearch');
+    const searchButton = document.querySelector('.search-btn');
+    
+    // Eventos
+    searchInput.addEventListener('keyup', function(e) {
+        if (e.key === 'Enter') {
+            searchCDC();
+        } else if (this.value.length === 0) {
+            clearHighlights();
+        }
+    });
+    
+    searchButton.addEventListener('click', searchCDC);
+    
+    // Inicializar funções
+    setupCDCNavigation();
+    setupScrollToTop();
+    
+    // Adicionar estilos específicos
+    const styleEl = document.createElement('style');
+    styleEl.textContent = `
+        .cdc-highlight {
+            background-color: #ffeb3b;
+            padding: 2px 0;
+            font-weight: bold;
+        }
+        .search-info {
+            margin-top: 10px;
+            padding: 8px;
+            background-color: #f1f1f1;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .scroll-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 40px;
+            height: 40px;
+            background-color: var(--secondary);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            font-size: 20px;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+        .scroll-to-top:hover {
+            background-color: var(--primary);
+        }
+        @media print {
+            .cdc-sidebar, .cdc-header, .scroll-to-top, .main-footer {
+                display: none;
+            }
+            .cdc-container {
+                grid-template-columns: 1fr !important;
+            }
+            .cdc-content {
+                padding: 0;
+            }
+            .cdc-load-more .btn {
+                display: none;
+            }
+        }
+    `;
+    document.head.appendChild(styleEl);
+});
+</script>
+</body>
+</html> 
